@@ -13,7 +13,7 @@ class HomeFragment : Fragment() {
 
 
     lateinit var binding: FragmentHomeBinding
-//    my
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
