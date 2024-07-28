@@ -26,7 +26,6 @@ lateinit var binding:ActivityMainBinding
     val navHostFragment:NavHostFragment= supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment
         val navController=navHostFragment.navController
 
-
         val appBarConfiguration=
             AppBarConfiguration(setOf(R.layout.fragment_home,R.layout.fragment_home),binding.drawerlayout)
 
